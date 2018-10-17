@@ -8,4 +8,4 @@ class Exec3 {
     }
 }
 
-//c) Compila e roda, imprimindo de 0 até 19 e depois 15.
+//A resposta certa é (c). A variável i declarada no for só é visível dentro do for.

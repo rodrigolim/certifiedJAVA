@@ -9,5 +9,8 @@ class Exec5 {
     }
 }
 
-//d) Compila e imprime os números de 10 até 99.
-//Neste caso ocorre o "shadowing"
+/** 
+* A resposta certa é (d). Isso porque o acesso à variável estática pode
+* ser feito através da instância da classe ou diretamente caso seja uma
+* variável estática sendo acessada por um método estático.
+*/

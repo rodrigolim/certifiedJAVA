@@ -1,0 +1,21 @@
+5) Escolha a opção adequada para compilar a classe A.java, definida como
+no pacote b presente no diretório b, e adicionar também o arquivo
+program.jar na busca de classes durante a compilação. Lembre-se que
+. significa o diretório atual.
+
+a) javac -cp b.A.java -cp program.jar
+b) javac -jar program.jar b.A.java
+c) javac -cp program.jar:b A.java
+d) javac -cp program.jar:. b.A.java
+e) javac -cp . -cp program.jar
+f) javac -jar program.jar:. b/A.java
+g) javac -cp program.jar:b b/A.java
+h) javac -cp program.jar:. b/A.java
+
+/**
+Durante a compilação, para adicionar o arquivo program.jar ao
+classpath, devemos usar -cp program.jar e, para especificar o arquivo
+adequado, usamos b/A.java. Aopção que apresenta essas duas
+características é javac -cp program.jar:. b/A.java. A resposta
+certa é (h).
+*/

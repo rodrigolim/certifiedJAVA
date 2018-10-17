@@ -8,4 +8,7 @@ class Exec2 {
     }
 }
 
-//a) Erro de compilação na linha 6
+/** 
+* A resposta certa é (a). A variável i não pode ser acessada fora do laço,
+* repare que o laço não foi declarado com {, uma pegadinha clássica da prova.
+*/

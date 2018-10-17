@@ -1,0 +1,23 @@
+4) Escolha a opção adequada para rodar a classe A.java presente no diretório
+b, que foi compactado em um arquivo chamado program.jar,
+sendo que não existe nenhum arquivo de manifesto:
+package b;
+class A {
+    public static void main(String[] args) {
+        System.out.println(args[0]);
+    }
+}
+
+            a) java jar program.jar
+            b) java jar program.jar b.A
+            c) java -jar program.jar
+            d) java -jar program.jar b.A
+            e) java -cp program.jar
+CORRETA ->  f) java -cp program.jar b.A
+
+/**
+Para rodar um programa dentro de um jar sem ter um manifesto,
+devemos usar o classpath customizado. Colocamos o jar no classpath
+e dizemos qual classe desejamos rodar: java -cp program.jar
+b.A. A resposta certa é (f).
+*/

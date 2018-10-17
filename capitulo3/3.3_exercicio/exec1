@@ -1,0 +1,15 @@
+Qual é uma assinatura válida do método main para executar um programa java?
+
+CORRETA -> a) public static void main(String... args) 
+            b) public static int main(String[] args)
+            c) public static Void main(String []args)
+            d) protected static void main(String[] args)
+            e) public static void main(int argc, String[] args)
+
+
+/**
+O método main não pode devolver int nem Void. Ele também deve ser público e 
+só receber um argumento: um array (ou varargs) de String. Portanto:
+public static void main(String... args)
+A resposta certa é (a).
+*/

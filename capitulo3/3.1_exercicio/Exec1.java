@@ -7,4 +7,4 @@ class Exec1 {
      }
 }
 
-//opção a) Erro de compilação na linha 6
+//A resposta certa é (a). A variável i não pode ser acessada fora do laço.
