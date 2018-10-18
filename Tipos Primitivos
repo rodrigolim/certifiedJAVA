@@ -1,0 +1,16 @@
+Tipos primitivos
+
+Todos os tipos primitivos do Java já estão definidos e não é possível criar
+novos tipos primitivos. São oito os tipos primitivos do Java: 
+* byte 
+* short
+* char
+* int
+* long
+* float
+* double
+* boolean 
+
+obs: O boolean é o único primitivo não numérico. 
+Todos os demais armazenam números: double e float são ponto flutuante, 
+e os demais, todos inteiros (incluindo char).
