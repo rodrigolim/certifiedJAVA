@@ -6,4 +6,9 @@ class A {
     }
 }
 
-//e) O código compila e imprime gulherme.
+/**
+A resposta certa é (e). O array começa na posição 0, portanto, o primeiro
+caractere removido se encontra na posição 2, o i. Ele remove
+todos os caracteres até a posição 3, exceto o da posição 3, portanto somente
+o i é removido.
+ */

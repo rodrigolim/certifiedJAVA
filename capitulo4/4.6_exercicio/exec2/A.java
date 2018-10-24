@@ -6,4 +6,8 @@ class A {
     }
 }
 
-//a) O código imprime 13 e -2.
+/**
+A resposta certa é (a). Os dois métodos retornam -1 quando não encontram
+nada, portanto, o segundo resultado é -2. Como a posição
+começa em 0, o resultado das letras e são 5 e 8, totalizando 13.
+ */

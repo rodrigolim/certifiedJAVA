@@ -21,4 +21,10 @@ class A {
     }
 }
 
-//b) Compila e imprime empty/empty.
+/**
+A resposta certa é (b). O código compila e devido à regra de sempre
+invocar omais específico, ele sempre invoca ométodo sem argumentos.
+Portanto, o resultado é vazio/vazio. Lembre-se que em Java a ordem de
+definição de métodos não importa para a invocação. Já a ordem das
+variáveis pode importar, caso uma dependa da outra.
+ */

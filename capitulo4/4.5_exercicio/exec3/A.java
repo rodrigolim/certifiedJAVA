@@ -9,4 +9,6 @@ class A {
     }
 }
 
-//e) Compila e ao rodar imprime 2.
+/**
+A resposta certa é (e). O código compila e imprime 2.
+ */

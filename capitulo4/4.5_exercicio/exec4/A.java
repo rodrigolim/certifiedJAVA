@@ -9,4 +9,8 @@ class A {
     }
 }
 
-//e) Compila e ao rodar imprime 2.
+/**
+A resposta certa é (e). O código compila e imprime 2. Esse é o caso
+absurdo onde o array é tantoum Object quantoumarray de Object.
+Por padrão o Java tratará como um array de Object.
+ */
