@@ -1,9 +1,7 @@
 # Estudos para certificação [JAVA SE8 Programmer I](https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-808)
 
-Estudos para certificação JAVA baseados no livro: 
-```
-#### [Java SE 8 Programmer I, O guia para sua certificação Oracle Certified Associate](https://www.casadocodigo.com.br/products/livro-certificacao-java-associate)
-```
+### Estudos para certificação JAVA baseados no livro: 
+[Java SE 8 Programmer I, O guia para sua certificação Oracle Certified Associate](https://www.casadocodigo.com.br/products/livro-certificacao-java-associate)
 
 ### Todos os tipos primitivos do Java já estão definidos e não é possível criar novos tipos primitivos. São oito os tipos primitivos do Java 
 ```
@@ -16,7 +14,7 @@ Estudos para certificação JAVA baseados no livro:
  double   = 8 bytes (64 bits, de +/–4.9 * 10 ^324 a +/–1.7976931348623157 * 10 ^308).
  boolean  = true or false;
 ```
-#### Para saber mais: calculando o intervalo de valores
+#### PARA SABER MAIS: Calculando o intervalo de valores
   * Dado o número de bits N do tipo primitivo inteiro, para saber os valores que ele aceita usamos a seguinte conta:
 ```
    -2^(n-1) a 2^(n-1) -1
