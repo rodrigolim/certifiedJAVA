@@ -13,6 +13,9 @@
  float    = 4 bytes (32 bits, de +/–1.4 * 10 ^45 a +/–3.4028235 * 10 ^38);
  double   = 8 bytes (64 bits, de +/–4.9 * 10 ^324 a +/–1.7976931348623157 * 10 ^308).
  boolean  = true or false;
+
+ obs: O boolean é o único primitivo não numérico.  Todos os demais armazenam números: double e float (ponto flutuante)
+      e os demais, todos inteiros (incluindo char).
 ```
 #### PARA SABER MAIS: Calculando o intervalo de valores
   * Dado o número de bits N do tipo primitivo inteiro, para saber os valores que ele aceita usamos a seguinte conta:
@@ -22,4 +25,14 @@
    * A única exceção é o tipo char, por ser apenas positivo:  
 ```
    0 a 2^(16) -1
+```
+
+### REFORÇAR OS ESTUDOS 
+```
+metodos 
+  - FORMAT
+  - PRINTF
+   obs: procurar tabela
+
+Wrappers (Estudar, e um tipo primitivo...)
 ```
