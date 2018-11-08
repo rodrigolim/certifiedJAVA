@@ -1,0 +1,12 @@
+5) A expressão a seguir pode ser reduzida, como podemos fazer?
+
+    if ((train && !car) || (!train && car)) {
+        // ....
+    }
+
+
+A resposta certa é (d). Pode-se utilizar o operador booleano de ou exclusivo ^:
+
+if (train ^ car) {
+// ....
+}
